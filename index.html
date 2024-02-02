@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="script-src 'self' 'unsafe-inline';" http-equiv="Content-Security-Policy">
+    <link href="./css/styles.css" id="styles" rel="stylesheet">
+    <title>Music Player</title>
+</head>
+
+<body>
+<audio id="audio">
+    <audio id="preloadAudio" style="display: none;" preload="auto"></audio>
+</audio>
+<div class="preload" id="preload">
+    <span class="loader">
+    </span>
+</div>
+<div class="modal" id="modal">
+</div>
+<div class="notification" id="notification">
+</div>
+<div class="context-menu" id="contextMenu">
+    <ul>
+        <li>
+            <i class="material-icons">add</i>
+            <span>Add to playlist</span>
+        </li>
+        <li>
+            <i class="material-icons">favorite</i>
+            <span>Favorite</span>
+        </li>
+        <!-- Add more options as needed -->
+    </ul>
+</div>
+<div id="loginView">
+    <div class="login-box">
+        <h1>Login</h1>
+        <span class="material-symbols-outlined login-image"> input </span>
+        <p id="login-code-url">Please go to $VERIFICATION_URL and enter the code below to login. When you are done, click the button below.</p>
+        <h2 id="login-code">WWT-WVV-XQC</h2>
+        <button id="login">I have entered the code.</button>
+    </div>
+</div>
+<div id="mainView">
+    <div id="topBarView">
+        <div id="logoText">Rhythm</div>
+        <form id="searchBar">
+            <input id="searchInput" placeholder="Search..." type="text">
+            <i class="material-icons" id="searchIcon">search</i>
+        </form>
+        <img id="avatar" src="https://www.billboard.com/wp-content/uploads/2023/08/travis-scott-circus-maximus-2023-billboard-13-1548.jpg">
+    </div>
+    <!-- Suggestions Container -->
+    <div id="suggestionContainer">
+    </div>
+    <div id="contentWrapper">
+        <div id="sidebarView">
+            <button class="sidebar-button" id="home-button">
+                <i class="material-icons">home</i> Home </button>
+            <button class="sidebar-button" id="explore-button">
+                <i class="material-icons">explore</i> Explore </button>
+            <button class="sidebar-button" id="library-button">
+                <i class="material-icons">library_music</i> Library </button>
+        </div>
+        <div id="contentView">
+            <div id="detailView">
+            </div>
+            <div id="homeView">
+            </div>
+            <div id="artistView">
+            </div>
+            <div id="exploreView">
+            </div>
+            <div id="libraryView">
+            </div>
+            <div id="resultsView">
+            </div>
+            <div id="playlistView">
+            </div>
+        </div>
+    </div>
+    <div id="bottomPlayerView">
+        <div class="song-info">
+            <img alt="Album Art" id="albumArt" src="">
+            <div class="song-title-and-artist">
+                <div id="songTitle">M83 - Midnight City (Slowed+Reverb)</div>
+                <div id="artistName">JuicyG</div>
+            </div>
+        </div>
+        <div class="middle-section">
+            <div class="song-controls">
+                <button class="control-button" id="prevButton">
+                    <i class="material-icons">skip_previous</i>
+                </button>
+                <button class="control-button" id="playPauseButton">
+                    <i class="material-icons">pause</i>
+                </button>
+                <button class="control-button" id="nextButton">
+                    <i class="material-icons">skip_next</i>
+                </button>
+            </div>
+            <div class="duration-container" id="duration-container">
+                <div class="duration-outer" id="duration-outer">
+                    <div class="duration-inner" id="duration-inner">
+                    </div>
+                </div>
+                <div class="seek-handle" id="seekHandle">
+                </div>
+            </div>
+        </div>
+        <div id="player-section-right">
+            <div class="duration-container" id="volume-container">
+                <div class="duration-outer" id="volume-outer">
+                    <div class="duration-inner" id="volume-inner">
+                    </div>
+                </div>
+                <div class="seek-handle" id="volSeekHandle">
+                </div>
+            </div>
+            <button class="control-button" id="queue-button">
+                <i class="material-icons">queue_music</i>
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+<script src="./js/backend.js" type="module">
+</script>
