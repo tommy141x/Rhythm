@@ -15,4 +15,4 @@ Welcome to Rhythm, a sleek and intuitive YouTube Music client designed to bring 
 When I decided to try out Youtube Premium, I came to find there was no desktop client for Youtube Music. The website "works", however, I found it to be very sluggish and laggy. For that reason, I decided to attempt to create my own client. In the end, I have switched back to Spotify for my musical needs, so this project is no longer a priority for me.
 
 ## Contributing
-We welcome contributions from the community! Whether it's reporting issues, submitting pull requests, or simply spreading the word, every bit helps make Rhythm better. Check out our contribution guidelines for more details on how you can get involved. You must have a web proxy for ``js/worker.js```in order for the API calls to work for youtube.
+We welcome contributions from the community! Whether it's reporting issues, submitting pull requests, or simply spreading the word, every bit helps make Rhythm better. Check out our contribution guidelines for more details on how you can get involved. You must have a web proxy for js/worker.js in order for the API calls to work for youtube.
