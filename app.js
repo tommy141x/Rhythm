@@ -6,7 +6,7 @@ const RichPresence = require("rich-presence-builder")
 let mainWindow = null;
 
 function createWindow() {
-    //Menu.setApplicationMenu(null);
+    Menu.setApplicationMenu(null);
     mainWindow = new BrowserWindow({
         width: 1920,
         height: 1080,
@@ -29,9 +29,9 @@ function createWindow() {
         },
     });
 
-    mainWindow.openDevTools();
+    //mainWindow.openDevTools();
     mainWindow.loadFile('index.html');
-    mainWindow.openDevTools();
+    //mainWindow.openDevTools();
 }
 
 let rp;
