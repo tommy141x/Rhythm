@@ -13,7 +13,7 @@ const {
 } = require("libmuse");
 const keytar = require('keytar');
 let auth = get_option("auth");
-set_option("proxy", "https://www.tommy-johnston.com/proxy");
+set_option("proxy", "PUT PROXY HERE");
 let ev;
 let timeout = 1;
 function handleErrors(promise) {
