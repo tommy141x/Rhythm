@@ -1,4 +1,18 @@
-# Rhythm
+# Rhythm - YouTube Music Client
+Welcome to Rhythm, a sleek and intuitive YouTube Music client designed to bring the best of YouTube Music right to your desktop. Developed with love for music and technology, Rhythm is built using HTML, CSS, and JavaScript (Using [muse](https://github.com/vixalien/muse) as a backend), wrapped up in an Electron shell for cross-platform compatibility.
 
-A music client developed via HTML, CSS, and JS, using Electron as a app wrapper.
-Uses [Muse](https://github.com/vixalien/muse) as a backend for Youtube Music.
+![](https://git.tommy-johnston.com/tommy/Rhythm/raw/branch/main/preview-pics/rhythmHomePreview.png)
+
+## Features
+* Seamless YouTube Music Integration: Access your favorite playlists, albums, and tracks directly within Rhythm.
+* Cross-Platform Compatibility: Whether you're on Windows, macOS, or Linux, Rhythm ensures you can enjoy your music wherever you are.
+* Responsive User Interface: Designed with modern web standards, Rhythm offers a clean and intuitive interface that adapts to your preferences.
+
+![](https://git.tommy-johnston.com/tommy/Rhythm/raw/branch/main/preview-pics/rhythmLibraryPreview.png)
+![](https://git.tommy-johnston.com/tommy/Rhythm/raw/branch/main/preview-pics/rhythmPlaylistPreview.png)
+
+## Why?
+When I decided to try out Youtube Premium, I came to find there was no desktop client for Youtube Music. The website "works", however, I found it to be very sluggish and laggy. For that reason, I decided to attempt to create my own client. In the end, I have switched back to Spotify for my musical needs, so this project is no longer a priority for me.
+
+## Contributing
+We welcome contributions from the community! Whether it's reporting issues, submitting pull requests, or simply spreading the word, every bit helps make Rhythm better. Check out our contribution guidelines for more details on how you can get involved.
