@@ -17,3 +17,7 @@ When I decided to try out Youtube Premium, I came to find there was no desktop c
 
 ## Contributing
 We welcome contributions from the community! Whether it's reporting issues, submitting pull requests, or simply spreading the word, every bit helps make Rhythm better. You must have a web proxy for js/worker.js in order for the API calls to work for youtube (CORS). There is a [tracking issue](https://git.tommy-johnston.com/tommy/Rhythm/issues/1) for this project as well.
+
+## License
+
+This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International License - see the [LICENSE](LICENSE) file for details.
