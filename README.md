@@ -7,6 +7,7 @@ Welcome to Rhythm, a sleek and intuitive YouTube Music client designed to bring 
 * Seamless YouTube Music Integration: Access your favorite playlists, albums, and tracks directly within Rhythm.
 * Cross-Platform Compatibility: Whether you're on Windows, macOS, or Linux, Rhythm ensures you can enjoy your music wherever you are.
 * Responsive User Interface: Designed with modern web standards, Rhythm offers a clean and intuitive interface that adapts to your preferences.
+* Discord Rich Presence is fully supported and will display the current song along with a link and artwork.
 
 ![](https://git.tommy-johnston.com/tommy/Rhythm/raw/branch/main/preview-pics/rhythmLibraryPreview.png)
 ![](https://git.tommy-johnston.com/tommy/Rhythm/raw/branch/main/preview-pics/rhythmPlaylistPreview.png)
