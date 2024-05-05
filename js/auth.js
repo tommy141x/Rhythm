@@ -43,7 +43,6 @@ async function authentication() {
             if (storedAuth) {
                 //We have a token in local storage so lets set it
                 const parsedAuth = JSON.parse(storedAuth);
-                //parsedAuth._token = "ya29.a0AfB_byDvBuYTfff7-NCl41PDjUhb3OG4s_fqSsXuqP1…aRaCgYKAQ0SARISFQHGX2MiLiJMb0CacorA3L4Qb7s8sw0183";
                 parsedAuth.token = parsedAuth._token;
                 auth._token = parsedAuth._token;
                 auth.token = parsedAuth.token;
